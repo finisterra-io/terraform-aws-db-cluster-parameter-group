@@ -33,7 +33,6 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | The name of the DB parameter group | `string` | `""` | no |
 | <a name="input_parameters"></a> [parameters](#input\_parameters) | A list of DB parameter maps to apply | `list(map(string))` | `[]` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource | `map(string)` | `{}` | no |
-| <a name="input_use_name_prefix"></a> [use\_name\_prefix](#input\_use\_name\_prefix) | Determines whether to use `name` as is or create a unique name beginning with `name` as the specified prefix | `bool` | `false` | no |
 
 ## Outputs
 
